@@ -88,7 +88,7 @@ dd {
     padding: 10px;
     width: 1000px;
     height: 300px;
-    background-color: #8752ff;
+    background-color: #C9B79C;
     display: flex;
 }
 
@@ -123,13 +123,13 @@ dd {
     align-items: center;
     width: 1000px;
     height: auto;
-    background-color: #af9ef0;
+    background-color: #C9B79C;
     border: #0e0d0d;
 }
 
 #sobre {
     width: 1000px;
-    background-color: #af9ef0;
+    background-color: #C9B79C;
     padding: 0 100px;
 }
 
