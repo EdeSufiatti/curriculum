@@ -80,7 +80,7 @@ dd {
 .img {
     height: 250px;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 80%;
     padding: 25px;
 
 
@@ -96,7 +96,7 @@ dd {
 
 
 #name {
-    font-family: Inter-Bold, Helvetica, sans-serif;
+    
     font-size: 50px;
     padding: 25px;
     margin: -1px;
@@ -104,7 +104,7 @@ dd {
 
 
 #cargo {
-    font-family: Inter-Bold, Helvetica, sans-serif;
+    
     font-size: 20px;
     color: white;
     font-weight: 200;
@@ -113,15 +113,16 @@ dd {
 #name ul {
 
     list-style: none;
-    color: azure;
+    color: white;
 }
 
 #contato {
-    font-family: Inter-Bold, Helvetica, sans-serif;
+    
     font-size: 20px;
     padding: 25px;  
     margin: 12px;
     text-align: end;
+    color: white;
 }
 
 #caixamaster {
