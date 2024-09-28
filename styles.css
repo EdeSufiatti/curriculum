@@ -155,11 +155,12 @@ dd {
     padding: 0 100px;
     display: flex;
     flex-direction: column;
+    
 }
 
 #exp {
     width: 65vw;
-    height: auto;
+    height: auto;   
 }
 
 #edu {
@@ -168,9 +169,10 @@ dd {
 }
 
 .container1 {
-    width: 900px;
+    width: 850px;
     padding: auto;
     display: flex;
+    
 }
 
 .container1 h1{
