@@ -91,7 +91,7 @@ dd {
     padding: 10px;
     width: 1000px;
     height: 300px;
-    background-color:rgb(32, 87, 68);
+    background-color:rgb(16, 102, 72);
     display: flex;
 }
 
@@ -143,7 +143,7 @@ dd {
 }
 #sobre h1{
     font-size: 50px;
-    color: rgb(5, 107, 120);
+    color: rgb(37, 63, 229);
 }
 
 #linha {
@@ -161,8 +161,11 @@ dd {
 
 #exp {
     width: 60vw;
-    height: auto;   
+    height: auto; 
+    margin-bottom: 0;  
+    
 }
+
 
 #edu {
     width: 60vw;
@@ -176,16 +179,21 @@ dd {
     display: flex;
     
 }
+.container1 ul li{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
 
 .container1 h1{
-    font-size: 25px;
-    color: rgb(5, 107, 120);
+    font-size: 22px;
+    color: rgb(37, 63, 229);
 }
 .container1 h2{
-    font-size: 22px;
+    font-size: 20px;
+    color:  rgb(5, 107, 120);
     
     }
 .container1 h3{
+    color: grey;
     font-size: 14px;
 }
 .container1 p{
