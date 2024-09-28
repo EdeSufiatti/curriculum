@@ -108,7 +108,7 @@ dd {
 #cargo {
     
     font-size: 20px;
-    color: grey;
+    color: white;
     font-weight: 300;
 }
 
@@ -125,7 +125,7 @@ dd {
     padding: 25px;  
     margin: 12px;
     text-align: end;
-    color: grey;
+    color: white;
     text-decoration: none;
 }
 
@@ -140,6 +140,10 @@ dd {
     width: 1000px;
     background-color: rgb(215, 224, 161);
     padding: 0 100px;
+}
+#sobre h1{
+    font-size: 50px;
+    color: rgb(5, 107, 120);
 }
 
 #linha {
@@ -165,7 +169,7 @@ dd {
 
 .container1 {
     width: 900px;
-    height: auto;
+    padding: auto;
     display: flex;
 }
 
