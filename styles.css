@@ -140,6 +140,7 @@ dd {
     width: 1000px;
     background-color: rgb(215, 224, 161);
     padding: 0 100px;
+    text-align: justify;
 }
 #sobre h1{
     font-size: 50px;
@@ -162,8 +163,7 @@ dd {
 #exp {
     width: 60vw;
     height: auto; 
-    margin-bottom: 0;  
-    
+       
 }
 
 
@@ -177,7 +177,7 @@ dd {
     width: 850px;
     padding: auto;
     display: flex;
-    
+    gap: 10px;
 }
 .container1 ul li{
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -197,7 +197,8 @@ dd {
     font-size: 14px;
 }
 .container1 p{
-    font-size: 12px;
+    font-size: 14px;
+    text-align: justify;
 }
 
 #int {
