@@ -171,9 +171,13 @@ dd {
 
 .container1 h1{
     font-size: 20px;
-    margin-bottom: 20px;
+   
     color: rgb(5, 107, 120);
 }
+.container1 h2{
+    font-size: 15px;
+    
+    }
 
 #int {
     width: 60vw;
