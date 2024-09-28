@@ -20,52 +20,93 @@ dd {
 }
 
 /* FIM RESET GLOBAL */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #cabeca {
-        font-family: 'Inter-Bold', Helvetica, sans-serif;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         height: auto;
-        align-items: center;
-        gap: 10px;
-        flex-wrap: wrap;
+        padding: 20px;
         display: flex;
     }
 
     .img {
         height: 150px;
         width: 150px;
+        display: block; 
+        margin: 10px auto; 
     }
 
+    #name {
+        font-size: 28px; 
+        text-align: center;
+        padding: 10px 0;
+        color: white;
+        display: block;
+    }
+
+    #cargo {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+    }
+
+    #contato {
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        display: block;
+        margin-top: 10px;
+    }
+
+    #caixamaster,
     #sobre {
-        font-family: 'Inter-Bold', Helvetica, sans-serif;   
-        padding: 100px;
-        width: 100%;
-        height: auto;
-        border-radius: 0;
-        font-size: 0.9rem;
+        width: 90%;
+        padding: 10px;
     }
 
-    #caixamaster {
+    #sobre h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #linha {
+        width: 90%;
+    }
+
+    .container {
         width: 100%;
-        height: auto;
-        padding: 100px;
+        padding: 10px;
+    }
+
+    #exp, #edu, #int, #idi {
+        width: 100%;
     }
 
     .container1 {
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
 
-    #exp,
-    #edu,
-    #int,
-    #idi {
-        width: 80vw;
-        height: auto;
-        margin-bottom: 15px;
+    .container1 h1 {
+        font-size: 18px;
+    }
+
+    .container1 h2 {
+        font-size: 16px;
+    }
+
+    .container1 p {
+        font-size: 12px;
+        text-align: justify;
     }
 }
+
 
 
 
@@ -126,7 +167,7 @@ dd {
     margin: 12px;
     text-align: end;
     color: white;
-    text-decoration: none;
+    text-decoration: dotted;
 }
 
 #caixamaster {
@@ -174,7 +215,7 @@ dd {
 
 .container1 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    width: 850px;
+    width: 800px;
     padding: auto;
     display: flex;
     gap: 10px;
@@ -210,4 +251,11 @@ dd {
 
     width: 60vw;
     height: auto;
+}
+
+#idi ul li, #int ul li {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    padding: 2px;
+    font-size: 14px;
+    
 }
